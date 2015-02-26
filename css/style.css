@@ -1,0 +1,226 @@
+/*CSS for ThaPenny Site*/
+*:before, *:after {
+    box-sizing: border-box;
+}
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+/*--------this section deals with the entire body of website-----------*/
+
+body {
+	 background-color: #f2f2f2;
+	}
+	
+header,
+section,
+footer {
+	width: 1060px;
+ 	margin: 0 auto;
+ 	padding: 0 50px;
+ 	position: relative;
+}
+header :after,
+section :after,
+footer :after{
+	content: "";
+	display: block;
+	clear: both;
+}
+header{
+
+
+}
+
+/*--------this section deals withhome "spash" page----------------*/	
+#splash{
+	
+	width: 1060px;
+	height: 360px;
+	display: block;
+	background-color: grey;
+	margin-left: -50px;
+	text-align: center;
+	clear: both;
+	
+}
+
+#splash h2{
+	padding-top: 30px;
+	font-size: 33.19px;
+}
+
+#splash h1{
+	padding-top: 30px;
+	font-size: 39.19px;
+}
+
+#splash p{
+	padding-top: 80px;
+	font-size: 25px;
+}
+
+/*--------this section deals with main navigation of website----------------*/	
+nav{
+	background-color: #1a1a1a;	
+	display: block;
+	position: absolute; left: 0;
+	width: 1060px;
+	height: 83px;
+	clear: both;
+}
+
+#logo{
+	float: left;
+	width: 190px;
+	height: 80px;
+	margin-left: 50px;
+	margin-top: 30px;
+	padding-top: 30px;
+	position: relative; bottom: 29px;
+}
+nav ul{
+	float: right;
+	padding-top: 30px;
+	margin-right: 50px;
+}
+nav ul li{
+	display: inline;
+	list-style-type: none;
+	float: left;
+	padding-right: 20px;
+}
+
+/*--------this section deals with content on homepage----------------*/
+
+#bodycontent{
+	width: 1060px;
+	margin: 0 auto;
+}
+	
+#stockofweek{
+	width: 560px;
+	clear: both;
+	margin-top: 110px;
+	float: left;
+}
+
+#companylogo{
+	width: 545px; 
+	height:260;
+	background-color: grey;
+	border-radius: 25px 25px 0 0;
+	-moz-border-radius: 25px 25px 0 0;
+	-ms-border-radius: 25px 25px 0 0;
+	-o-border-radius: 25px 25px 0 0;
+	-webkit-border-radius: 25px 25px 0 0;
+}
+#stockofweek h2{
+	margin-bottom: 20px;
+
+	
+}
+
+#companyInfo{
+	color: grey;
+	padding-left: 20px;
+	width: 545px;
+	height: 136px;
+	background-color: 333333;
+	margin-top: -10px;
+	border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	-ms-border-radius: 0 0 25px 25px;
+	-o-border-radius: 0 0 25px 25px;
+	-webkit-border-radius:  0 0 25px 25px;
+}
+
+#companyInfo h3{
+	padding-top: 5px;
+}
+
+#companyInfo h4{
+	margin-bottom: 7px;
+}
+
+#sideContent{
+	margin-bottom: -83px;
+}
+
+#sideContent, #sideContent2{
+	width: 340px;
+	height: 165px;
+	float: right;
+	margin-top: 146px;
+	margin-right: 60px;
+}
+
+#sideContent2{
+	background-color: ddd;
+	border-radius: 25px 25px;
+	-moz-border-radius: 25px 25px;
+	-ms-border-radius: 25px 25px;
+	-o-border-radius: 25px 25px;
+	-webkit-border-radius: 25px 25px;
+}
+
+#sideContent2 ul{
+	margin-left: 30px;
+}
+
+#sideContent ul{
+	margin-left: 30px;
+}
+
+#sideContent p{
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 71px;
+}
+
+#sideContent2 p{
+	padding-top: 10px;
+	padding-right: 71px;
+	text-align: right;
+}
+
+#sideContent2 h3{
+	padding-top: 4px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+#sideContent h3{
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+
+/*--------this section deals with the footer-----------*/
+footer{
+	clear: both;
+	background-color: #333333;
+	width: 1060px;
+	height: 110px;
+	margin-bottom: 40px;
+	margin-top: 590px;;
+}
+footer h5{
+	float: left;
+	margin-right: 192px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+#first{
+	padding-left: 170px;
+}
+footer p{
+	clear: both;
+	background-color: #f2f2f2;
+	position: absolute; left: 0;
+	margin-top:  120px;
+	margin-left: 480px;
+}
