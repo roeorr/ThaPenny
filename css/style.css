@@ -49,15 +49,48 @@ footer::after{
 header{
 	background-color: #ccc;
 	background-image: url(../images/ThaPenny_header_image.png);
-	background-size: 1060px 360px;
+	background-size: 1060px 500px;
 	background-repeat: no-repeat;
 	text-align: center;
 	padding-top: 50px;
 	
 }
+
+#tagline,
+#intro_heading,
+#intro_getStarted{
+	margin-top: 20px;
+}
+
+#tagline{
+	font: 2em/1.25 "Adobe Caslon Pro", Helvetica, sans-serif ;
+	color: #d1a534;
+}
+
+#intro_heading{
+	display: inline-block;
+	font: 2em/1.25 "Adobe Caslon Pro", Helvetica, sans-serif ;
+	color: #e6e6e6;
+	width: 40%;
+}
+
+#intro_getStarted a{
+	color: #d1a534;	
+}
+
+#arrowDown a{
+	margin-top: 10px;
+	display: inline-block;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #d1a534;
+}
+
 nav {
 	background: #000;
-	margin-top: 150px;
+	margin-top: 20px;
 	padding: 10px 20px;
 }
 
@@ -99,56 +132,6 @@ nav a:active {
   background-color: black;
 }
 
-
-/*
-h2{
-	padding-top: 30px;
-	font-size: 33.19px;
-}
-
-h1{
-	padding-top: 30px;
-	font-size: 39.19px;
-}
-
-p{
-	padding-top: 80px;
-	font-size: 25px;
-}
-*/
-
-/*--------this section deals with main navigation of website----------------	
-nav{
-	background-color: #1a1a1a;	
-	display: block;
-	position: absolute; left: 0;
-	width: 1060px;
-	height: 83px;
-	clear: both;
-}
-
-#logo{
-	float: left;
-	width: 190px;
-	height: 80px;
-	margin-left: 50px;
-	margin-top: 30px;
-	padding-top: 30px;
-	position: relative; bottom: 29px;
-}
-nav ul{
-	float: right;
-	padding-top: 30px;
-	margin-right: 50px;
-}
-nav ul li{
-	display: inline;
-	list-style-type: none;
-	float: left;
-	padding-right: 20px;
-}
-*/
-
 /*--------this section deals with content on homepage---------------- */
 
 
@@ -174,7 +157,6 @@ nav ul li{
 	text-align: center;
 }
 
-
 #stockofweek div{
 	padding: 20px;
 	text-align: left;
@@ -186,10 +168,6 @@ nav ul li{
 	position: absolute; top: -20px;
 }
 
-
-
-
-
 #education {
 	
 }
@@ -197,109 +175,7 @@ nav ul li{
 #newsletter{
 	background: #ccc;
 }
-/*
-#bodycontent{
-	width: 1060px;
-	margin: 0 auto;
-}
-	
-#stockofweek{
-	width: 560px;
-	clear: both;
-	margin-top: 110px;
-	float: left;
-}
 
-#companylogo{
-	width: 545px; 
-	height:260;
-	background-color: grey;
-	border-radius: 25px 25px 0 0;
-	-moz-border-radius: 25px 25px 0 0;
-	-ms-border-radius: 25px 25px 0 0;
-	-o-border-radius: 25px 25px 0 0;
-	-webkit-border-radius: 25px 25px 0 0;
-}
-#stockofweek h2{
-	margin-bottom: 20px;	
-}
-
-#companyInfo{
-	color: grey;
-	padding-left: 20px;
-	width: 545px;
-	height: 136px;
-	background-color: 333333;
-	margin-top: -10px;
-	border-radius: 0 0 25px 25px;
-	-moz-border-radius: 0 0 25px 25px;
-	-ms-border-radius: 0 0 25px 25px;
-	-o-border-radius: 0 0 25px 25px;
-	-webkit-border-radius:  0 0 25px 25px;
-}
-
-#companyInfo h3{
-	padding-top: 5px;
-}
-
-#companyInfo h4{
-	margin-bottom: 7px;
-}
-
-#sideContent{
-	margin-bottom: -83px;
-}
-
-#sideContent, #sideContent2{
-	width: 340px;
-	height: 165px;
-	float: right;
-	margin-top: 146px;
-	margin-right: 60px;
-}
-
-#sideContent2{
-	background-color: ddd;
-	border-radius: 25px 25px;
-	-moz-border-radius: 25px 25px;
-	-ms-border-radius: 25px 25px;
-	-o-border-radius: 25px 25px;
-	-webkit-border-radius: 25px 25px;
-}
-
-#sideContent2 ul{
-	margin-left: 30px;
-}
-
-#sideContent ul{
-	margin-left: 30px;
-}
-
-#sideContent p{
-	text-align: right;
-	padding-top: 10px;
-	padding-right: 15px;
-}
-
-#sideContent2 p{
-	padding-top: 10px;
-	padding-right: 15px;
-	text-align: right;
-}
-
-#sideContent2 h3{
-	padding-top: 4px;
-	padding-left: 20px;
-	padding-bottom: 10px;
-	font-size: 20px;
-}
-
-#sideContent h3{
-	padding-left: 20px;
-	padding-bottom: 10px;
-	font-size: 20px;
-}
-*/
 
 /*--------this section deals with the footer----------- */
 
