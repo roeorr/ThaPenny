@@ -1,0 +1,357 @@
+/*CSS for ThaPenny Site*/
+*:before, *:after {
+    box-sizing: border-box;
+}
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+/* -- -- */
+ul {
+	list-style-position: inside;
+}
+
+img {
+	display: block;
+	background: #ffffff;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+/*--------this section deals with the entire body of website-----------*/
+
+body {
+	 background-color: #f2f2f2;
+	}
+	
+header,
+.wrapper,
+footer {
+	width: 100%; max-width: 960px;
+ 	margin: 0 auto;
+ 	position: relative;
+}
+
+header::after,
+.wrapper::after,
+nav::after,
+footer::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.wrapper{
+	padding: 50px 20px;
+}
+
+/*--------this section deals withhome "spash" page----------------*/	
+header{
+	background-color: #ccc;
+	background-image: url(../images/ThaPenny_header_image.png);
+	background-size: 1060px 360px;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 50px;
+	
+}
+nav {
+	background: #000;
+	margin-top: 150px;
+	padding: 10px 20px;
+}
+
+nav h1 { 
+	float: left; 
+	width: 195px;
+	background-color: : #ccc;
+	background-image: url(../images/thapenny_logo.png);
+	background-size: 150px;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+nav ul { float: right; }
+nav li { 
+	font: 100%/1.25 "Adobe Caslon Pro", Helvetica, sans-serif;
+	float: left; 
+}
+nav a {
+	font: 1.125em/1.5; /* 18px/16px */
+	color: #ccc;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	padding-top: 20px;
+	border-right: solid .5px #000;
+	height: 50px;
+}
+
+nav h1 a,
+nav li:last-of-type a { border-right: none; }
+				   
+nav a:hover {
+  text-decoration: none;
+  color: #d1a534;
+}
+
+nav a:active {
+  color: white;
+  background-color: black;
+}
+
+
+/*
+h2{
+	padding-top: 30px;
+	font-size: 33.19px;
+}
+
+h1{
+	padding-top: 30px;
+	font-size: 39.19px;
+}
+
+p{
+	padding-top: 80px;
+	font-size: 25px;
+}
+*/
+
+/*--------this section deals with main navigation of website----------------	
+nav{
+	background-color: #1a1a1a;	
+	display: block;
+	position: absolute; left: 0;
+	width: 1060px;
+	height: 83px;
+	clear: both;
+}
+
+#logo{
+	float: left;
+	width: 190px;
+	height: 80px;
+	margin-left: 50px;
+	margin-top: 30px;
+	padding-top: 30px;
+	position: relative; bottom: 29px;
+}
+nav ul{
+	float: right;
+	padding-top: 30px;
+	margin-right: 50px;
+}
+nav ul li{
+	display: inline;
+	list-style-type: none;
+	float: left;
+	padding-right: 20px;
+}
+*/
+
+/*--------this section deals with content on homepage---------------- */
+
+
+.wrapper section { 
+	position: relative;
+	margin-bottom: 20px; 
+}
+
+@media (min-width: 600px) {
+	.wrapper section {
+		width: calc(50% - 20px);
+		margin-bottom: 0;
+	}
+	.wrapper section:nth-of-type(1) { float: left; }
+	.wrapper section:nth-of-type(n+2) { float: right; }
+	.wrapper section:nth-of-type(2) { margin-bottom: 20px; }
+}
+
+
+#stockofweek {
+	background-color: #ccc;
+	border-radius: 10px;
+	text-align: center;
+}
+
+
+#stockofweek div{
+	padding: 20px;
+	text-align: left;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#stockofweek h2{
+	position: absolute; top: -20px;
+}
+
+
+
+
+
+#education {
+	
+}
+
+#newsletter{
+	background: #ccc;
+}
+/*
+#bodycontent{
+	width: 1060px;
+	margin: 0 auto;
+}
+	
+#stockofweek{
+	width: 560px;
+	clear: both;
+	margin-top: 110px;
+	float: left;
+}
+
+#companylogo{
+	width: 545px; 
+	height:260;
+	background-color: grey;
+	border-radius: 25px 25px 0 0;
+	-moz-border-radius: 25px 25px 0 0;
+	-ms-border-radius: 25px 25px 0 0;
+	-o-border-radius: 25px 25px 0 0;
+	-webkit-border-radius: 25px 25px 0 0;
+}
+#stockofweek h2{
+	margin-bottom: 20px;	
+}
+
+#companyInfo{
+	color: grey;
+	padding-left: 20px;
+	width: 545px;
+	height: 136px;
+	background-color: 333333;
+	margin-top: -10px;
+	border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	-ms-border-radius: 0 0 25px 25px;
+	-o-border-radius: 0 0 25px 25px;
+	-webkit-border-radius:  0 0 25px 25px;
+}
+
+#companyInfo h3{
+	padding-top: 5px;
+}
+
+#companyInfo h4{
+	margin-bottom: 7px;
+}
+
+#sideContent{
+	margin-bottom: -83px;
+}
+
+#sideContent, #sideContent2{
+	width: 340px;
+	height: 165px;
+	float: right;
+	margin-top: 146px;
+	margin-right: 60px;
+}
+
+#sideContent2{
+	background-color: ddd;
+	border-radius: 25px 25px;
+	-moz-border-radius: 25px 25px;
+	-ms-border-radius: 25px 25px;
+	-o-border-radius: 25px 25px;
+	-webkit-border-radius: 25px 25px;
+}
+
+#sideContent2 ul{
+	margin-left: 30px;
+}
+
+#sideContent ul{
+	margin-left: 30px;
+}
+
+#sideContent p{
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 15px;
+}
+
+#sideContent2 p{
+	padding-top: 10px;
+	padding-right: 15px;
+	text-align: right;
+}
+
+#sideContent2 h3{
+	padding-top: 4px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+#sideContent h3{
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+*/
+
+/*--------this section deals with the footer----------- */
+
+footer{
+	background-color: #333;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+footer ul{
+	list-style: none;
+	display: inline-block;
+}
+footer li{ 
+	float: left; 
+}
+
+footer li a {
+	display: block;
+	padding: 10px 80px;
+}
+
+footer p {
+	position: absolute; bottom: -25px; left: 0;
+	width: 100%;
+}
+
+/*
+footer{
+	clear: both;
+	background-color: #333333;
+	width: 1060px;
+	height: 110px;
+	margin-bottom: 40px;
+	margin-top: 590px;;
+}
+footer h5{
+	float: left;
+	margin-right: 192px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+#first{
+	padding-left: 170px;
+}
+footer p{
+	clear: both;
+	background-color: #f2f2f2;
+	position: absolute; left: 0;
+	margin-top:  120px;
+	margin-left: 480px;
+}
+*/
