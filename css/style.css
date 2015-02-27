@@ -251,6 +251,48 @@ nav a:active {
 	
 }
 
+/*--------this section deals with the newsletter signup----------- */
+
+#newsletterInfo{
+	width: 40%;
+	height: 188px;
+	background: #333333;
+	color: #ccc;
+	position: relative;
+	padding: 20px;
+}
+
+#newsletterImage{
+	float: left;
+}
+
+#newsletterInfo h3,
+#newsletterInfo p{
+	width: 100%;
+}
+
+#email{
+	background-color: #d1a534;
+	color: #000;
+	border-radius: 5px;
+	width: 100%;
+	float: left;
+}
+
+#newsletterForm div{
+	width: 60%;
+	float: left;	
+	margin-top: 20px;
+}
+
+.join_button{
+
+	margin-top: 20px;
+	width: 25%;
+	height: 25px;	
+	color: #000000;
+}
+
 /*--------this section deals with the footer----------- */
 
 footer{
