@@ -18,6 +18,12 @@ img {
 	max-width: 100%;
 }
 
+#pageTitle{
+	font: 1.2em/1 "Apple Chancery", Helvetica, sans-serif ;
+	margin-top: -30px;
+	margin-bottom: 20px;
+}
+
 /*--------this section deals with the entire body of website-----------*/
 
 body {
@@ -35,6 +41,7 @@ footer {
 header::after,
 .wrapper::after,
 nav::after,
+#blogPost::after,
 footer::after{
 	content: "";
 	display: table;
@@ -202,9 +209,52 @@ nav a:active {
 	border-radius: 10px;
 }
 
+/*--------this section deals with the content on tickerbuzz.html----------- */
+#blogPost{
+	width: 55%;
+	margin-right: 30px;	
+}
+
+#blogPost aside{
+	background: #333;
+	width: 55px;
+	margin-right: 5px;
+	color: #ccc;
+	padding: 8px;
+	text-align: center;
+	float: left;
+}
+
+#blogPost h3{
+	text-transform: uppercase;
+}
+
+#blogPost p{
+	margin: 20px 0;
+}
+
+#blogPost div{
+	color: #ccc;
+	font-size: 50px;
+	text-align: center;
+	padding: 75px;
+	margin: 10px 0;
+	background: #333;
+	width: 100%;
+	height: 220px;
+}
+
+#ad{
+	width: 300px;
+	height: 600px;
+	float: right;
+	
+}
+
 /*--------this section deals with the footer----------- */
 
 footer{
+	clear: both; 
 	background-color: #333;
 	text-align: center;
 	padding: 10px;
