@@ -46,10 +46,10 @@ footer::after{
 }
 
 /*--------this section deals withhome "spash" page----------------*/	
-header{
+#homePageheader{
 	background-color: #ccc;
 	background-image: url(../images/ThaPenny_header_image.png);
-	background-size: 1060px 500px;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	text-align: center;
 	padding-top: 50px;
@@ -79,18 +79,19 @@ header{
 }
 
 #arrowDown a{
-	margin-top: 10px;
+	margin-top: 5px;
+	margin-bottom: 20px;
 	display: inline-block;
 	width: 0; 
 	height: 0; 
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
 	border-top: 20px solid #d1a534;
+	
 }
 
 nav {
 	background: #000;
-	margin-top: 20px;
 	padding: 10px 20px;
 }
 
@@ -99,7 +100,7 @@ nav h1 {
 	width: 195px;
 	background-color: : #ccc;
 	background-image: url(../images/thapenny_logo.png);
-	background-size: 150px;
+	background-size: 150px 100%;
 	background-repeat: no-repeat;
 	text-indent: -9999px;
 }
@@ -140,6 +141,15 @@ nav a:active {
 	margin-bottom: 20px; 
 }
 
+.wrapper h3{
+	font: 1.33em/1.25  "Adobe Caslon Pro", Helvetica, sans-serif;
+	color: #d1a534;
+}
+
+.wrapper a{
+	color: #d1a534;
+}
+
 @media (min-width: 600px) {
 	.wrapper section {
 		width: calc(50% - 20px);
@@ -147,7 +157,7 @@ nav a:active {
 	}
 	.wrapper section:nth-of-type(1) { float: left; }
 	.wrapper section:nth-of-type(n+2) { float: right; }
-	.wrapper section:nth-of-type(2) { margin-bottom: 20px; }
+	.wrapper section:nth-of-type(2) { margin-bottom: 37px; }
 }
 
 
@@ -155,6 +165,10 @@ nav a:active {
 	background-color: #ccc;
 	border-radius: 10px;
 	text-align: center;
+}
+
+#stockofweek img{
+	background: transparent;
 }
 
 #stockofweek div{
@@ -166,16 +180,27 @@ nav a:active {
 }
 #stockofweek h2{
 	position: absolute; top: -20px;
+	color: #c5c5c5;
 }
 
-#education {
-	
+#education a,
+#newsletter a{
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	text-decoration: underline;
+}
+
+#education ul li,
+#newsletter ul li{
+	padding: 3.2px;
 }
 
 #newsletter{
 	background: #ccc;
+	padding: 10px;
+	border-radius: 10px;
 }
-
 
 /*--------this section deals with the footer----------- */
 
@@ -197,37 +222,15 @@ footer li{
 footer li a {
 	display: block;
 	padding: 10px 80px;
+	color: #e6e6e6;
+}
+
+footer li img{
+	background: transparent;
+	padding: 3px;
 }
 
 footer p {
 	position: absolute; bottom: -25px; left: 0;
 	width: 100%;
 }
-
-/*
-footer{
-	clear: both;
-	background-color: #333333;
-	width: 1060px;
-	height: 110px;
-	margin-bottom: 40px;
-	margin-top: 590px;;
-}
-footer h5{
-	float: left;
-	margin-right: 192px;
-	text-align: center;
-	padding-top: 70px;
-}
-
-#first{
-	padding-left: 170px;
-}
-footer p{
-	clear: both;
-	background-color: #f2f2f2;
-	position: absolute; left: 0;
-	margin-top:  120px;
-	margin-left: 480px;
-}
-*/
