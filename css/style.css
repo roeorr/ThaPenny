@@ -278,7 +278,7 @@ nav a:active {
 }
 
 #ad{
-	width: 300px;
+	width: 100%; max-width: 300px; 
 	height: 600px;
 	float: right;
 	
@@ -287,16 +287,18 @@ nav a:active {
 /*--------this section deals with the newsletter signup----------- */
 
 #newsletterInfo{
-	width: 40%;
-	height: 188px;
+	width: 100%; max-width: 350px;
+	height: 100%; max-height: 250px;
 	background: #333333;
 	color: #ccc;
 	position: relative;
-	padding: 20px;
+	padding: 39.5px;
 }
 
 #newsletterImage{
 	float: left;
+	width: 100%; max-width: 200px;
+	height: 100%; max-height: 188px;
 }
 
 #newsletterInfo h3,
@@ -313,7 +315,7 @@ nav a:active {
 }
 
 #newsletterForm div{
-	width: 60%;
+	max-width: 300px;
 	float: left;	
 	margin-top: 20px;
 }
@@ -321,9 +323,37 @@ nav a:active {
 .join_button{
 
 	margin-top: 20px;
-	width: 25%;
+	width: 100%; max-width: 70px;
 	height: 25px;	
 	color: #000000;
+}
+
+/*--------this section deals with the whatsapenny.html page----------- */
+
+#whatsApenny{
+	max-width: 500px;
+	width: 100%;
+	display: inline-block;
+}
+
+#whatsApenny p{
+	padding-bottom: 1em;
+	font-weight: 300;
+
+}
+
+/*--------this section deals with the aboutus.html page----------- */
+
+#aboutUs{
+	max-width: 500px;
+	width: 100%;
+	display: inline-block;
+}
+
+#aboutUs p{
+	padding-bottom: 1em;
+	font-weight: 300;
+
 }
 
 /*--------this section deals with the footer----------- */
